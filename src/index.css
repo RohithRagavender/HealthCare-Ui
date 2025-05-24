@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+.neon-sky {
+  text-shadow:
+    0 0 10px #38bdf8,
+    0 0 0px #38bdf8,
+    0 0 0px #38bdf8,
+    0 0 0px #0ea5e9,
+    0 0 0px #0ea5e9;
+}
+
+.active {
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  border:1px solid black;
+  }
+
+.active:hover {
+  transform: scale(1.05);
+  background-color: #3b82f6; 
+  color: white;
+  
+}
